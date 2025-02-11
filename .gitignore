@@ -33,7 +33,8 @@ env/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+# Allow our analysis notebooks
+!notebooks/*.ipynb
 
 # Data files
 data/raw/*
